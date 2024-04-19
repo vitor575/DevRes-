@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 html {
-    background: url("../img/background.jpg");
+    background: url(https://images.alphacoders.com/438/438979.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -54,7 +54,7 @@ header img {
 }
 
 .cards img {
-    width: 320px;
+    width: 270px;
     border-radius: 10px;
 }
 
