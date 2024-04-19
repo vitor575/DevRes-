@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+html {
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cabecalho {
+    background-color: rgb(212,203,180);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    border-radius: 0 0 15px 15px;
+}
+
+header img {
+    height: 95px;
+    margin-left: 1rem;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.iniciar-container {
+    margin-top: 15rem;
+    height: 4rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.iniciar-container:hover {
+    transform: scale(1.15);
+}
+
+.iniciar-atendimento{
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+    background-color:  rgb(212,203,180);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.tipo {
+    margin-top: 5rem;
+}
+
+.cards img {
+    width: 320px;
+    border-radius: 10px;
+}
+
+.cards h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.cards a {
+    text-decoration: none;
+    color: black;
+}
+
+.cards {
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.cards:hover {
+    transform: scale(1.15);
+}
+
+.tipo__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.call {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 190px;
+    text-wrap: nowrap;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;   
+    transition: all 0.4s;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.call:hover {
+    transform: scale(1.15);
+}
