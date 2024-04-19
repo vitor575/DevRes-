@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 html {
-    background: url(https://images.alphacoders.com/438/438979.jpg);
+    background: url(https://images2.alphacoders.com/862/862730.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -11,12 +11,12 @@ html {
     height: 100px;
     display: flex;
     align-items: center;
-    gap: 400px;
+    gap: 420px;
     border-radius: 0 0 15px 15px;
 }
 
 header img {
-    height: 95px;
+    height: 80px;
     margin-left: 1rem;
 }
 
