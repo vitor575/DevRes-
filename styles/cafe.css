@@ -2,16 +2,17 @@
     height: 80px;
 }
 
-.cardapio__café__container {
+.cardapio__container {
     background-color: rgb(212,203,180);
     width: 95%;
     margin: 20px auto 0 auto;
     border-radius: 10px;
 }
 
-.cafe-cards__container {
+.cards__container {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     padding: 20 px 35px;
     gap: 15px;
 }
@@ -36,3 +37,8 @@
     padding: 20 px 35px;
     gap: 15px;
 }
+=======
+    padding: 20px 35px;
+    justify-content: space-around;
+}
+>>>>>>> 738426a59abb730e23ac00ef34192750feed732d
