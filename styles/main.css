@@ -11,9 +11,11 @@ html {
     background-color: rgb(212,203,180);
     display: flex;
     align-items: center;
-    gap: 250px;
+    padding: 0 3rem;
     justify-content: space-around;
     border-radius: 0 0 15px 15px;
+    font-weight: bolder;
+    font-family: sans-serif;
 }
 
 header img {
@@ -28,7 +30,7 @@ header img {
 .iniciar-container {
     margin-top: 15rem;
     height: 4rem;
-    width: auto;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -47,7 +49,7 @@ header img {
     padding: 1.5rem;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .tipo {
@@ -60,30 +62,44 @@ header img {
     margin: 0 15px;
 }
 
-.cards h3 {
+.card-inicio img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.cards h3, .card-inicio h3 {
     font-size: 30px;
     text-align: center;
     margin-top: 1rem;
     text-transform: uppercase;
 }
 
-.cards a {
+.cards a, .card-inicio a {
     text-decoration: none;
     color: black;
 }
 
 .cards {
-    background-color: antiquewhite;
-    padding: 1rem;
-    border-radius: 10px;
-    transition: all 0.3s;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
-    position: relative;
-    margin-bottom: 20px;
     width: 280px;
+    height: 220px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
 }
 
-.cards:hover {
+.card-inicio {
+    background-color: antiquewhite;
+    width: 280px;
+    height: 220px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.cards:hover, .card-inicio:hover {
     transform: scale(1.15);
 }
 
@@ -98,7 +114,7 @@ header img {
     width: 190px;
     text-wrap: nowrap;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: white;
     padding: 1rem;   
     transition: all 0.4s;

@@ -1,44 +1,63 @@
-.cabecalho__menor {
-    height: 80px;
-}
+
 
 .cardapio__container {
     background-color: rgb(212,203,180);
-    width: 95%;
+    width: 90vw;
     margin: 20px auto 0 auto;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .cards__container {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
-    padding: 20 px 35px;
-    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: row;
 }
 
-.almoco-cards__container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20 px 35px;
-    gap: 15px;
+.tipos {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 7px;
+    padding: 2rem;
+    background-color:antiquewhite;
+    text-align: center;
 }
 
-.sobremesa-cards__container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20 px 35px;
-    gap: 15px;
+.card-main {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 7px;
 }
 
-.bebidas-cards__container {
+.card-main:hover {
+    transform: rotateY(180deg);
+}
+
+.front-card {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    backface-visibility: hidden;
+}
+
+.back-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.ingredientes {
+    font-weight: bold;
     display: flex;
-    flex-wrap: wrap;
-    padding: 20 px 35px;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
-=======
-    padding: 20px 35px;
-    justify-content: space-around;
-}
->>>>>>> 738426a59abb730e23ac00ef34192750feed732d
