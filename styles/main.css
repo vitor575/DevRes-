@@ -9,12 +9,11 @@ html {
 
 .cabecalho {
     background-color: rgb(212,203,180);
-    display: flex;
-    align-items: center;
-    padding: 0 3rem;
-    justify-content: space-around;
     border-radius: 0 0 15px 15px;
     font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-family: sans-serif;
 }
 
@@ -125,3 +124,13 @@ header img {
 .call:hover {
     transform: scale(1.15);
 }
+
+.cabecalho__apresentacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
