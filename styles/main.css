@@ -98,7 +98,7 @@ header img {
     transition: all 0.3s;
 }
 
-.cards:hover, .card-inicio:hover {
+.card-inicio:hover {
     transform: scale(1.15);
 }
 
